@@ -1,0 +1,40 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+*.pem
+*.key
+
+# Runtime output and generated files
+decisions.log
+*.log
+logs/
+temp_audio/
+*.sqlite
+*.db
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

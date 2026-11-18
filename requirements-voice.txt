@@ -1,0 +1,5 @@
+# Optional: voice support (the star task). Also needs ffmpeg installed separately.
+faster-whisper==1.0.3
+edge-tts==6.1.12
+# faster-whisper 1.0.3 imports requests but does not always install it
+requests
